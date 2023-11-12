@@ -1,0 +1,61 @@
+<head>
+
+    <title>Form Pendataan</title>
+</head>
+<body>
+    <form action="monica" method="get">
+        <fieldset>
+            <h3>Form Pendataan Desa Gunung Sari</h3>
+            <p> selamat Datang.. silahkan melengkapi data di bawah ini !</p>
+        <br>
+        <br>
+            <p>Data :</p>
+            <label for="Nama">Nama</label>
+            <input type="text"name="Nama"id="Nama">
+        <br>
+        <br>
+            <label for="telepon">Telepon</label>
+            <input type="text"name="Telepon"id="Telepon">
+        <br>
+        <br>
+            <label for="Alamat">Alamat</label>
+            <textarea></textarea>
+        <br>
+        <br>
+           <h4>Jenis Kelamin :</h4>
+        <br>
+           <input type="radio"name="Jenis Kelamin :"id="Jenis Kelamin :"value="laki-laki">
+           <label for="">laki-laki</label>
+        <br>
+           <input type="radio"name="Jenis Kelamin :"id="Jenis Kelamin :"value="perempuan">
+           <label for="">perempuan</label>
+        <br>
+        <br>
+           <h4> Bagaimana Desa Gunung Sari Menurutmu?</h4>
+           <input type="checkbox"name="Bagaimana Desa Gunung Sari Menurutmu?"id="Bagaimana Desa Gunung Sari Menurutmu? "value="Nyaman">
+           <label for="">Nyaman</label>
+        <br>
+        <br>
+           <input type="checkbox"name="Bagaimana Desa Gunung Sari Menurutmu?"id="Bagaimana Desa Gunung Sari Menurutmu? "value="Bersih">
+           <label for="">Bersih</label>
+        <br>
+        <br>
+           <input type="checkbox"name="Bagaimana Desa Gunung Sari Menurutmu?"id="Bagaimana Desa Gunung Sari Menurutmu? "value="Gotong Royong">
+           <label for="">Gotong Royong</label>
+        <br>
+        <br>
+           <input type="checkbox"name="Bagaimana Desa Gunung Sari Menurutmu?"id="Bagaimana Desa Gunung Sari Menurutmu? "value="Lingkungan Asri">
+           <label for="">Lingkungan Asri</label>
+        <br>
+        <br>
+           <h4> Rating 1-10</h4>
+           <label for="Rating">Rating</label>
+           <input type="number"name="Rating"min="1"max="10">
+        <br>
+        <br>
+           <input type="submit"value="Ini Penilaianku" id="Ini Penilaianku">
+           <input type="submit"value="reset" id="reset">
+</fieldset>
+</form>
+</body>
+</html>
